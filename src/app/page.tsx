@@ -1,6 +1,5 @@
 import { sanityFetch } from "@/sanity/lib/fetch";
 import { allproducts } from "@/sanity/lib/queries";
-import product from "@/sanity/schemaTypes/product";
 import Image from "next/image";
 
 type Product = {
