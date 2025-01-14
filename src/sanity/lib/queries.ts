@@ -17,18 +17,18 @@ export const allproducts =defineQuery(`
     
     }`)
 
-    // export const fourPro =defineQuery(`
-    //     *[_type == "product"][0..3]{
-    //     _id,
-    //     name,
-    //     description,
-    //     price,
-    //     discountPercentage,
-    //     priceWithoutDiscount,
-    //     rating,
-    //     ratingCount,
-    //     tags,
-    //     sizes,
-    //     "imageUrl" : image.asset->url
+    export const fourPro =defineQuery(`
+        *[_type == "product"][0..3]{
+        _id,
+        name,
+        description,
+        price,
+        discountPercentage,
+        priceWithoutDiscount,
+        rating,
+        ratingCount,
+        tags,
+        sizes,
+        "imageUrl" : image.asset->url
         
-    //     }`)
+        }`)
